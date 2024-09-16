@@ -1,0 +1,46 @@
+
+body{
+   margin: 0;
+   height: 100vh;
+   background-color: aqua;
+   
+   }
+
+.container{background-color: blueviolet;
+   
+   height: 90vh;
+   margin: 25px;
+   
+   border-radius:24px ;
+display: grid;
+grid-template-columns: repeat(6,190px);
+grid-template-rows: repeat(4,170)px ;
+gap: 12px;
+padding: 12px;
+justify-content: center;
+overflow: scroll;
+
+
+}
+.container div{
+         height:140px ;
+         width:140px ;
+         margin: 12px;
+         border-radius: 24px;
+
+ }
+ 
+ 
+ .container div img{
+         
+         height: 160px;
+         width: 160px;
+      background-color:blue;
+         margin: 24px;
+         
+         object-fit: cover;
+        
+      }
+      
+      
+      
